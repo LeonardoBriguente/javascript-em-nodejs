@@ -1,0 +1,10 @@
+{
+  "name": "javascript-em-nodejs",
+  "version": "1.0.0",
+  "description": "Repositório destinado ao curso de JavaScript em NodeJs ministrado pelo canal Rincko Dev",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
