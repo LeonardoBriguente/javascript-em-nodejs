@@ -6,3 +6,14 @@
 // Multiplicação Combinada (*=): Esse operador MULTIPLICA o valor de uma variável;
 // Multiplicação Combinada (/=): Esse operador DIVIDI o valor de uma variável;
 
+const name = "Augusto";
+
+let price = 400;
+console.log(price); //400
+// Adicionando mais 50 reais no preço:
+price = price + 50;
+console.log(price); //450
+
+// Utilizando operadores de atribuição
+price += 50; // Essa forma mais resumida funciona da mesma maneira que o exemplo acima. A lógica é a mesma para todos os outros operadores.
+console.log(price); //500
