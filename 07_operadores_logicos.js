@@ -10,3 +10,10 @@
 // Utilizado para criar negações e verificar quando algo **não é verdadeiro**. Ele nega o valor da variável, ou seja, Se for true, vira false - e vice-versa
 
 // EXEMPLOS
+// Uso do &&: Pronto para sair
+const takeBath = true;
+const brushTeeth = true;
+
+const isReady = takeBath && brushTeeth;
+console.log(`Está pronto para sair? ${isReady}`);
+
