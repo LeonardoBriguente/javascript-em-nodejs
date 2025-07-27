@@ -5,3 +5,12 @@
 const age = 22;
 const result = age >= 18 ? "Maior de idade" : "Menor de idade";
 console.log(`A pessoa é ${result}`);
+
+// Colocando um operador dentro de outro
+const learnedJs = false;
+const withRincko = true;
+
+console.log(
+    learnedJs && withRincko ? "Aprendeu JavaScript com Rincko Dev" :
+    learnedJs ? "Aprendeu JavaScript" : "Não aprendeu JavaScript"
+);
