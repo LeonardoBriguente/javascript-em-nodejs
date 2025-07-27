@@ -23,3 +23,10 @@ const doHomework = true;
 
 const canPlay = washDishes || doHomework;
 console.log(`Lavou a louça ou faz a licão de casa? ${canPlay}`);
+
+// Uso do !: Entrar ou não
+let temChave = false;
+
+if (!temChave) {
+  console.log("Não pode entrar!");
+}
