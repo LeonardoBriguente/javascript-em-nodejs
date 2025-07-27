@@ -17,3 +17,9 @@ const brushTeeth = true;
 const isReady = takeBath && brushTeeth;
 console.log(`Está pronto para sair? ${isReady}`);
 
+// Uso do ||: Sair para brincar
+const washDishes = false;
+const doHomework = true;
+
+const canPlay = washDishes || doHomework;
+console.log(`Lavou a louça ou faz a licão de casa? ${canPlay}`);
